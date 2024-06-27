@@ -1,0 +1,100 @@
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav{
+    align-items: center;
+}
+.nav{
+    position: relative;
+    left: 40%;
+    align-items: center;
+}
+
+.navbar{
+    list-style: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+}
+
+.navbar li {
+    font-weight: 900;
+    font-size: 18px;
+    margin: 10px;
+    float: left;
+}
+.body-content{
+    position: relative;
+    top: 50px;
+}
+
+.name{
+    position: relative;
+    font-size: 100px;
+    left: 10%;
+    
+}
+.name h1{
+    margin: 0px;
+    letter-spacing: 20px;
+    
+}
+
+.induma{
+    color: rgb(210, 127, 32);
+}
+
+.discription-home{
+    width: 40%;
+    position: relative;
+    left: 11%;
+
+}
+
+.discription-home p{
+    
+    color: rgb(59, 59, 59);
+    font-size: 18px;
+}
+
+.buttenpanel{
+    position: relative;
+    left: 43%;
+}
+
+
+.buttenpanel input{
+
+    padding: 15px;
+    width: 200px;
+    border-radius: 20px;
+    font-size: larger;
+    background-color: rgba(255, 222, 173, 0);
+    
+ 
+}
+
+.buttenpanel input:hover{
+
+    padding: 15px;
+    width: 200px;
+    border-radius: 20px;
+    font-size: larger;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    
+ 
+}
+.buttenpanel input:active{
+
+    padding: 15px;
+    width: 200px;
+    border-radius: 20px;
+    font-size: larger;
+    color: white;
+    background-color: rgb(40, 40, 40);
+    
+ 
+}
