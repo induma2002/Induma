@@ -1,34 +1,32 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url(https://scontent.fcmb2-2.fna.fbcdn.net/v/t39.30808-6/352297211_108092915656996_5404003779252774348_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeEq1yCld5ui7qnqV0euzfkOgLZyt1pV4pKAtnK3WlXikkFOKedOWeBQnb3vokTZryTGXowSZH_znFdWo55CbMxw&_nc_ohc=tLQnQ3HW55gQ7kNvgFg1qPM&_nc_ht=scontent.fcmb2-2.fna&oh=00_AYC18VH9XS_EWtAnD8UIijuzlpcsWz6C3UJgJ10_bDEhNA&oe=668351C4);
+    background-color: black;
+    background-image: url(image/Slide1.jpg);
     background-repeat: no-repeat;
-    background-position: right;
-    /* background-position: bottom; */
-    background-size:40%;
-    background-clip: padding-box;
+    background-size: 100%;
+    opacity: var(10%);
+
 
 }
 
-.nav {
+/* .nav {
     align-items: center;
-}
+} */
 
 .nav {
     position: relative;
-    left: 40%;
-    align-items: center;
 }
 
 .navbar {
     list-style: none;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(14, 98, 141);
 
 }
 
 .navbar li {
     font-weight: 900;
-    font-size: 18px;
+    font-size: 20px;
     margin: 10px;
     float: left;
 }
@@ -40,12 +38,15 @@ body {
 
 .name {
     position: relative;
-    font-size: 100px;
+    font-size: 500%;
+    align-items: center;
     left: 10%;
 
 }
 
 .name h1 {
+    
+    
     margin: 0px;
     padding: 0%;
     letter-spacing: 20px;
@@ -53,25 +54,28 @@ body {
 }
 
 .induma {
-    color: rgb(28, 151, 213);
+    color: rgb(14, 98, 141);
 }
 
 .discription-home {
     width: 40%;
     position: relative;
-    left: 11%;
+    left: 10%;
+
+
 
 }
 
 .discription-home p {
 
-    color: rgb(59, 59, 59);
+    color: rgb(114, 113, 113);
     font-size: 18px;
 }
 
 .buttenpanel {
     position: relative;
-    left: 43%;
+    top: 5%;
+    left: 10%;
 }
 
 
@@ -106,7 +110,188 @@ body {
     border-radius: 20px;
     font-size: larger;
     color: white;
-    background-color: rgb(40, 40, 40);
+    background-color: rgb(52, 51, 51);
 
 
+}
+
+.about-me{
+    position: absolute;
+    margin-top: 18%;
+    width: 100%;
+    align-content: center;
+    /* background-color: aquamarine; */
+ 
+   /* align-items: center; */
+   
+}
+
+.about-me h1{
+    padding: 0%;
+    text-align: center;
+    color: white;
+
+}
+
+.about-me p{
+    padding: 0%;
+    text-align: center;
+    color: white;
+
+}
+
+.about-discription{
+    position: relative;
+    left: 15%;
+    text-align: center;
+    /* background-color: azure; */
+    align-items: center;
+    width: 70%;
+}
+
+@media (max-width:600px)  {
+
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: rgb(255, 255, 255);
+        background-image: none;
+        /* background-repeat: no-repeat; */
+        background-size: 100%;
+        opacity: var(10%);
+    
+    
+    }
+    .body-content {
+        position: relative;
+        top: 50px;
+    }
+    
+    .name {
+        position: relative;
+        font-size: 200%;
+        left: 3%;
+    
+    }
+    
+    .name h1 {
+        text-align: center;
+        margin: 0px;
+        padding: 0%;
+        letter-spacing: 20px;
+    
+    }
+    
+    .induma {
+        color: rgb(14, 98, 141);
+    }
+
+    .nav {
+        align-items: flex-start;
+    }
+    
+    .nnv {
+        position: relative;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        align-items: center;
+    }
+    
+    .navbar {
+        
+        list-style: none;
+        color: rgb(14, 98, 141);
+    
+    }
+    
+    .navbar li {
+        text-align: center;
+        font-weight: 900;
+        font-size: 15px;
+        margin: 10px;
+        
+    }
+    .discription-home {
+        width: 90%;
+        position: relative;
+        left: 5%;
+    
+    
+    
+    }
+    .name {
+        clear: both;
+        
+        /* align-items: center; */
+        font-size: 200%;
+        
+        
+    
+    }
+    
+    .name h1 {
+        text-align: center;
+        margin: 0px;
+        padding: 0%;
+        letter-spacing: 0px;
+    
+    }
+    .induma{
+        text-align: center;
+    }
+    .name-induma{
+  clear: both;
+    }
+    
+    .discription-home p {
+    
+        color: rgb(114, 113, 113);
+        text-align: center;
+        font-size: 18px;
+    }
+
+
+    .buttenpanel {
+        position: relative;
+        top: 5%;
+        left: 24%;
+    }
+    
+    
+    .buttenpanel input {
+    
+        padding: 15px;
+        width: 200px;
+        border-radius: 20px;
+        font-size: larger;
+        background-color: rgba(255, 222, 173, 0);
+    
+    
+    }
+    
+    .buttenpanel input:hover {
+    
+        padding: 15px;
+        width: 200px;
+        border-radius: 20px;
+        font-size: larger;
+        color: white;
+        background-color: rgb(0, 0, 0);
+        cursor: pointer;
+    
+    
+    }
+    
+    .buttenpanel input:active {
+    
+        padding: 15px;
+        width: 200px;
+        border-radius: 20px;
+        font-size: larger;
+        color: white;
+        background-color: rgb(52, 51, 51);
+    
+    
+    }
+    
+    
 }
